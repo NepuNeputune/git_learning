@@ -29,3 +29,16 @@ Me sirve para visualizar los cambios que hay entre el WD (working directory) y l
 ```sh
 git diff
 ```
+
+## GIT AMEND
+Me permite agregar cambios al último commit.
+
+Coloco en el area temporarl (Stage area) los cambios que quiero suar en el último commit. Sean líneas que faltaron, archivos que faltaron. Y luego hago el amend.
+```sh
+git add .
+git commit --amend
+```
+
+El git commit suele abrir un editor de texto (Nano) para colocar el mensaje o editar el actual mensaje
+* Ctrl + O: Guardar
+* Ctrl + X: Salir
